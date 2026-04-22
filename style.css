@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 1px solid #ddd;
+    background: white;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+
+.nav ul li {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.icons span {
+    margin-left: 15px;
+    cursor: pointer;
+}
