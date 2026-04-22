@@ -85,7 +85,6 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
-
 /* HOVER EFFECT */
 .hero button:hover {
     background: black;
