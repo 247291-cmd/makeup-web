@@ -74,3 +74,20 @@ body {
     border: none;
     cursor: pointer;
 }
+.hero button {
+    margin-top: 20px;          /* upar space */
+    padding: 14px 30px;        /* size bada */
+    background: white;
+    color: black;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 2px;       /* letters ke darmiyan space */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.hero button:hover {
+    background: black;
+    color: white;
+}
