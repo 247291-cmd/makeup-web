@@ -34,3 +34,51 @@ body {
     margin-left: 15px;
     cursor: pointer;
 }
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    padding: 50px;
+    background: url('./images/realistic-beauty-sale-banner-template_52683-94993.avif') no-repeat center/cover;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h4 {
+    letter-spacing: 3px;
+    color: gray;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+
+.features {
+    margin: 20px 0;
+}
+
+.features span {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-img img {
+    width: 200px;
+}
