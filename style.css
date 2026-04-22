@@ -91,3 +91,42 @@ body {
     background: black;
     color: white;
 }
+/* PRODUCTS SECTION */
+.products {
+    padding: 50px;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+/* ROW */
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* CARD */
+.product-card {
+    width: 23%;
+    text-align: center;
+}
+
+/* IMAGE */
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* TEXT */
+.product-card h3 {
+    margin: 10px 0 5px;
+}
+
+.product-card p {
+    color: gray;
+}
